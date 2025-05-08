@@ -6,7 +6,7 @@ from pathlib import Path
 import time
 
 class PasswordStrengthChecker:
-    def __init__(self, wordlist_path='data/rockyou.txt'):
+    def __init__(self, wordlist_path='data/rockyou.txt'): ## You can change the rockyou file here
         self.common_passwords = self.load_common_passwords(wordlist_path)
         self.min_password_length = 8
         self.recommended_password_length = 12
