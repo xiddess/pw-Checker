@@ -74,7 +74,7 @@ Strength Score: 47.1/100 (Moderate)
 ```bash
 main.py
 data/
-└── rockyou.txt  # (Optional) Common password list
+└── rockyou.txt  # (Optional). You can replace this file with another file, but the name must be the same (Unless you change the main coding).
 ```
 
 ## 🧠 How It Works
