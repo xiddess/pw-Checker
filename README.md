@@ -34,6 +34,15 @@ git clone https://github.com/xiddess/pw-Checker
 cd pw-Checker
 ```
 - run your script
+```bash
+chmod +x setup.sh
+```
+```bash
+./setup.sh
+```
+
+or
+
 ```python
 python3 main.py
 ```
